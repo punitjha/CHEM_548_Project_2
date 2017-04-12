@@ -29,6 +29,7 @@ int main()
 	potent1.save("potent1.txt",arma::raw_ascii);
 	potent2.save("potent2.txt",arma::raw_ascii);
 
+	
 	for ( int i=0; i<diagonal1.n_elem; ++i)
 	{
 		diagonal1[i]=potent1[i]+(2.0/(meshx*meshx))/2.0;//notice that the power operator in c++ is not ^ or ** you have to use a function pow ()
